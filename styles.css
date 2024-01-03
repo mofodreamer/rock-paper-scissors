@@ -21,4 +21,12 @@ img {
 
 div {
     margin: 20px;
+    display: flex;
+    flex-direction: row;
 }
+
+@media (max-width: 800px) {
+    div {
+      flex-direction: column;
+    }
+  }
